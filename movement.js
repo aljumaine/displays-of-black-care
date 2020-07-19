@@ -14,17 +14,17 @@ $(function(){
 			var scrollTop = $(window).scrollTop();
 			//console.log('scrollTop:', scrollTop);
 
-		  $("img.aljumaine").css("width", event.pageX)
-		  $("img.aljumaine").css("height", event.pageY)
+		  $("png.aljumaine").css("width", event.pageX)
+		  $("png.aljumaine").css("height", event.pageY)
 		  
-		  $("img.gayle").css("width", $(window).width() - event.pageX)
-		  $("img.gayle").css("height", event.pageY)
+		  $("png.gayle").css("width", $(window).width() - event.pageX)
+		  $("png.gayle").css("height", event.pageY)
 		  
-		  $("img.creative").css("width", event.pageX)
-		  $("img.creative").css("height", $(window).height() - event.pageY)
+		  $("png.creative").css("width", event.pageX)
+		  $("png.creative").css("height", $(window).height() - event.pageY)
 		  
-		  $("img.project-manager").css("width", $(window).width() - event.pageX)
-		  $("img.project-manager").css("height", $(window).height() - event.pageY)
+		  $("png.project-manager").css("width", $(window).width() - event.pageX)
+		  $("png.project-manager").css("height", $(window).height() - event.pageY)
 	  
 		}
 
